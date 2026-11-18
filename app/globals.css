@@ -254,9 +254,22 @@ html, body {
    ============================================= */
 @media (max-width: 480px) {
   .corners-overlay, .side-text { display: none; }
-  .screen-sticker { width: 82px; opacity: 0.34; }
-  .screen-sticker.sticker-batcat { width: 92px; opacity: 0.42; }
-  .screen-sticker.sticker-batman { width: 78px; opacity: 0.46; }
+  .screen-sticker {
+    z-index: 4;
+    width: 64px;
+    height: 64px;
+    opacity: 0.72;
+  }
+  .screen-sticker.sticker-left {
+    left: 8px;
+    top: 62px;
+  }
+  .screen-sticker.sticker-right {
+    right: 8px;
+    bottom: 92px;
+  }
+  .screen-sticker.sticker-batcat { width: 68px; height: 68px; opacity: 0.76; }
+  .screen-sticker.sticker-batman { width: 62px; height: 62px; opacity: 0.78; }
   .content-wrapper { padding-top: 6vh; padding-bottom: 80px; }
   .invitation-screen-content { gap: 10px; padding: 12px; }
   .svg-container.envelope { max-width: 90vw; }
