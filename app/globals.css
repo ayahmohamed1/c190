@@ -270,6 +270,14 @@ html, body {
   }
   .screen-sticker.sticker-batcat { width: 130px; height: 130px; opacity: 0.86; }
   .screen-sticker.sticker-batman { width: 118px; height: 118px; opacity: 0.86; }
+  #invitation .screen-sticker,
+  #song .screen-sticker {
+    display: none;
+  }
+  #invitation .content-wrapper,
+  #song .content-wrapper {
+    z-index: 5;
+  }
   #letter .screen-sticker {
     z-index: 1;
     width: 72px;
