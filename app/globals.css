@@ -256,9 +256,9 @@ html, body {
   .corners-overlay, .side-text { display: none; }
   .screen-sticker {
     z-index: 4;
-    width: 64px;
-    height: 64px;
-    opacity: 0.72;
+    width: 125px;
+    height: 125px;
+    opacity: 0.82;
   }
   .screen-sticker.sticker-left {
     left: 8px;
@@ -268,8 +268,24 @@ html, body {
     right: 8px;
     bottom: 92px;
   }
-  .screen-sticker.sticker-batcat { width: 68px; height: 68px; opacity: 0.76; }
-  .screen-sticker.sticker-batman { width: 62px; height: 62px; opacity: 0.78; }
+  .screen-sticker.sticker-batcat { width: 130px; height: 130px; opacity: 0.86; }
+  .screen-sticker.sticker-batman { width: 118px; height: 118px; opacity: 0.86; }
+  #letter .screen-sticker {
+    z-index: 1;
+    width: 72px;
+    height: 72px;
+    opacity: 0.42;
+  }
+  #letter .screen-sticker.sticker-left {
+    left: 4px;
+    top: 52px;
+  }
+  #letter .screen-sticker.sticker-right {
+    right: 4px;
+    bottom: 76px;
+  }
+  #letter .content-wrapper { z-index: 5; }
+  #letter .letter-card { position: relative; z-index: 6; }
   .content-wrapper { padding-top: 6vh; padding-bottom: 80px; }
   .invitation-screen-content { gap: 10px; padding: 12px; }
   .svg-container.envelope { max-width: 90vw; }
